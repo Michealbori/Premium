@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pricing Plans</title>
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="Plan.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-aos-easing="ease" data-aos-duration="600" data-aos-delay="0">
+
+
+      <!-- Navigation Bar -->
+  <nav class="navbar">
+    <!-- Logo -->
+    <div class="logo">
+      <a href="#home">MyLogo</a>
+    </div>
+
+    <!-- Desktop Menu -->
+    <ul class="nav-links desktop-menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="About.html">About</a></li>
+      <li><a href="Service.html">Services</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+      <li><a href="JoinUs.html">Join Us</a></li>
+      <li><a href="Plan.html"> Plan</a></li>
+    </ul>
+
+    <!-- Buttons (Sign Up & Login) -->
+    <div class="buttons desktop-buttons">
+      <button class="btn login-btn">Login</button>
+      <button class="btn signup-btn">Sign Up</button>
+    </div>
+
+    <!-- Hamburger Icon (Mobile) -->
+    <div class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <!-- Mobile Menu -->
+    <ul class="nav-links mobile-menu" id="mobile-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="Service.html">Services</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="JoinUs.html">Join Us</a></li>
+        <li><a href="Plan.html"> Plan</a></li>
+      <li class="mobile-buttons">
+        <!-- <button class="btn login-btn">Login</button>
+        <button class="btn signup-btn">Sign Up</button> -->
+      </li>
+    </ul>
+  </nav>
+
+   <!-- Hero Section -->
+   <div class="Hero-Text" id="home" data-aos="fade-up" data-aos-duration="1000">
+    <h1>Transparent Pricing, Maximum Value</h1>
+    <p>Find the perfect plan for your business needs.</p>
+
+  </div>
+
+
+
+
+  <!-- Pricing Cards -->
+  <section class="pricing-cards container" data-aos="fade-up">
+    <div class="plan-card">
+      <div class="plan-name">Basic</div>
+      <div class="plan-price">$19/month</div>
+      <ul class="features">
+        <li>✔️ Up to 5 users</li>
+        <li>✔️ Email support</li>
+        <li>✔️ Core features included</li>
+      </ul>
+      <a href="#" class="plan-button">Get Started</a>
+    </div>
+    <div class="plan-card">
+      <div class="plan-name">Pro</div>
+      <div class="plan-price">$49/month</div>
+      <ul class="features">
+        <li>✔️ Up to 20 users</li>
+        <li>✔️ Priority support</li>
+        <li>✔️ Custom integrations</li>
+        <li>✔️ Advanced analytics</li>
+      </ul>
+      <a href="#" class="plan-button">Start Free Trial</a>
+    </div>
+    <div class="plan-card">
+      <div class="plan-name">Enterprise</div>
+      <div class="plan-price">Custom</div>
+      <ul class="features">
+        <li>✔️ Unlimited users</li>
+        <li>✔️ Dedicated account manager</li>
+        <li>✔️ SLA-based support</li>
+        <li>✔️ API access</li>
+      </ul>
+      <a href="#" class="plan-button">Contact Sales</a>
+    </div>
+  </section>
+
+  <!-- FAQs -->
+  <section class="faq-section container" data-aos="fade-up">
+    <h2 style="text-align:center; margin-bottom:40px;">Frequently Asked Questions</h2>
+    <div class="faq-item">
+      <div class="faq-question">Can I upgrade my plan later?</div>
+      <p>Yes! You can upgrade or change plans anytime without losing your data.</p>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question">Do you offer discounts for long-term contracts?</div>
+      <p>Absolutely! Contact our sales team for enterprise pricing and annual billing discounts.</p>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question">Is there a free trial?</div>
+      <p>We offer a 14-day free trial on all paid plans so you can test it risk-free.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Contact Us</h4>
+        <p>Email: info@example.com</p>
+        <p>Phone: +123 456 7890</p>
+      </div>
+      <div class="footer-section">
+        <h4>Follow Us</h4>
+        <div class="social-icons">
+          <a href="#"><img src="https://img.icons8.com/ios-filled/30/facebook-new.png" alt="Facebook"></a>
+          <a href="#"><img src="https://img.icons8.com/ios-filled/30/instagram-new.png" alt="Instagram"></a>
+          <a href="#"><img src="https://img.icons8.com/ios-filled/30/twitter.png" alt="Twitter"></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2023 MyLogo. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script src="script.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
